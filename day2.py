@@ -1,7 +1,7 @@
 name=input("please enter your first name: ")
 surname=input("please enter your last name: ")
 age=int(input("please enter your age: "))
-dateofb=input("please enter your date of birth: ")
+dateofb=input("please enter your date of birth(just year): ")
 userinfo=[name,surname,age,dateofb]
 for i in userinfo:
     print(i)
